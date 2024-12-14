@@ -1,0 +1,15 @@
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Infrastructure/bin/Debug/net9.0/HybridCleanDDD.Infrastructure.deps.json
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Infrastructure/bin/Debug/net9.0/HybridCleanDDD.Infrastructure.dll
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Infrastructure/bin/Debug/net9.0/HybridCleanDDD.Infrastructure.pdb
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Infrastructure/bin/Debug/net9.0/HybridCleanDDD.Domain.dll
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Infrastructure/bin/Debug/net9.0/HybridCleanDDD.Domain.pdb
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Infrastructure/obj/Debug/net9.0/HybridCleanDDD.Infrastructure.csproj.AssemblyReference.cache
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Infrastructure/obj/Debug/net9.0/HybridCleanDDD.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Infrastructure/obj/Debug/net9.0/HybridCleanDDD.Infrastructure.AssemblyInfoInputs.cache
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Infrastructure/obj/Debug/net9.0/HybridCleanDDD.Infrastructure.AssemblyInfo.cs
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Infrastructure/obj/Debug/net9.0/HybridCleanDDD.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Infrastructure/obj/Debug/net9.0/HybridCl.3425D09D.Up2Date
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Infrastructure/obj/Debug/net9.0/HybridCleanDDD.Infrastructure.dll
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Infrastructure/obj/Debug/net9.0/refint/HybridCleanDDD.Infrastructure.dll
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Infrastructure/obj/Debug/net9.0/HybridCleanDDD.Infrastructure.pdb
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Infrastructure/obj/Debug/net9.0/ref/HybridCleanDDD.Infrastructure.dll

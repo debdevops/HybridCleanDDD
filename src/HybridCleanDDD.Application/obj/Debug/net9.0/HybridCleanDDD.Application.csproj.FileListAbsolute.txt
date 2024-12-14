@@ -1,0 +1,15 @@
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Application/obj/Debug/net9.0/HybridCleanDDD.Application.csproj.AssemblyReference.cache
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Application/obj/Debug/net9.0/HybridCleanDDD.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Application/obj/Debug/net9.0/HybridCleanDDD.Application.AssemblyInfoInputs.cache
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Application/obj/Debug/net9.0/HybridCleanDDD.Application.AssemblyInfo.cs
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Application/obj/Debug/net9.0/HybridCleanDDD.Application.csproj.CoreCompileInputs.cache
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Application/bin/Debug/net9.0/HybridCleanDDD.Application.deps.json
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Application/bin/Debug/net9.0/HybridCleanDDD.Application.dll
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Application/bin/Debug/net9.0/HybridCleanDDD.Application.pdb
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Application/bin/Debug/net9.0/HybridCleanDDD.Domain.dll
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Application/bin/Debug/net9.0/HybridCleanDDD.Domain.pdb
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Application/obj/Debug/net9.0/HybridCl.CD373ECB.Up2Date
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Application/obj/Debug/net9.0/HybridCleanDDD.Application.dll
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Application/obj/Debug/net9.0/refint/HybridCleanDDD.Application.dll
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Application/obj/Debug/net9.0/HybridCleanDDD.Application.pdb
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Application/obj/Debug/net9.0/ref/HybridCleanDDD.Application.dll

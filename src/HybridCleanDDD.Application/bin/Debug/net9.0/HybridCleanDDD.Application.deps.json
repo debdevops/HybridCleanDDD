@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "HybridCleanDDD.Application/1.0.0": {
+        "dependencies": {
+          "HybridCleanDDD.Domain": "1.0.0"
+        },
+        "runtime": {
+          "HybridCleanDDD.Application.dll": {}
+        }
+      },
+      "HybridCleanDDD.Domain/1.0.0": {
+        "runtime": {
+          "HybridCleanDDD.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HybridCleanDDD.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HybridCleanDDD.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

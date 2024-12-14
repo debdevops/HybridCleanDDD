@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8742E1DC-86BA-4835-A096-43E4407DDD53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HybridCleanDDD.Domain", "src\HybridCleanDDD.Domain\HybridCleanDDD.Domain.csproj", "{83BEC37F-17FB-44BF-BF56-1AAD761ECD21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HybridCleanDDD.Application", "src\HybridCleanDDD.Application\HybridCleanDDD.Application.csproj", "{D22C6A65-0A28-46C2-A581-BFEF1361147F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HybridCleanDDD.Infrastructure", "src\HybridCleanDDD.Infrastructure\HybridCleanDDD.Infrastructure.csproj", "{1983F98C-02F5-4B0B-9A45-10563E1A3177}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HybridCleanDDD.WebAPI", "src\HybridCleanDDD.WebAPI\HybridCleanDDD.WebAPI.csproj", "{083AC4DE-8292-4DA2-B6B7-107659BA4E9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1335464E-0166-4ABA-96C1-605CF0A6768F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HybridCleanDDD.Application.Tests", "tests\HybridCleanDDD.Application.Tests\HybridCleanDDD.Application.Tests.csproj", "{E12A6B0E-C50A-43F3-A33C-D919B60CA2E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HybridCleanDDD.Infrastructure.Tests", "tests\HybridCleanDDD.Infrastructure.Tests\HybridCleanDDD.Infrastructure.Tests.csproj", "{874F3832-3F2E-4ACC-A7AF-636F72567243}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83BEC37F-17FB-44BF-BF56-1AAD761ECD21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83BEC37F-17FB-44BF-BF56-1AAD761ECD21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83BEC37F-17FB-44BF-BF56-1AAD761ECD21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83BEC37F-17FB-44BF-BF56-1AAD761ECD21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D22C6A65-0A28-46C2-A581-BFEF1361147F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D22C6A65-0A28-46C2-A581-BFEF1361147F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D22C6A65-0A28-46C2-A581-BFEF1361147F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D22C6A65-0A28-46C2-A581-BFEF1361147F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1983F98C-02F5-4B0B-9A45-10563E1A3177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1983F98C-02F5-4B0B-9A45-10563E1A3177}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1983F98C-02F5-4B0B-9A45-10563E1A3177}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1983F98C-02F5-4B0B-9A45-10563E1A3177}.Release|Any CPU.Build.0 = Release|Any CPU
+		{083AC4DE-8292-4DA2-B6B7-107659BA4E9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{083AC4DE-8292-4DA2-B6B7-107659BA4E9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{083AC4DE-8292-4DA2-B6B7-107659BA4E9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{083AC4DE-8292-4DA2-B6B7-107659BA4E9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E12A6B0E-C50A-43F3-A33C-D919B60CA2E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E12A6B0E-C50A-43F3-A33C-D919B60CA2E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E12A6B0E-C50A-43F3-A33C-D919B60CA2E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E12A6B0E-C50A-43F3-A33C-D919B60CA2E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{874F3832-3F2E-4ACC-A7AF-636F72567243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{874F3832-3F2E-4ACC-A7AF-636F72567243}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{874F3832-3F2E-4ACC-A7AF-636F72567243}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{874F3832-3F2E-4ACC-A7AF-636F72567243}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{83BEC37F-17FB-44BF-BF56-1AAD761ECD21} = {8742E1DC-86BA-4835-A096-43E4407DDD53}
+		{D22C6A65-0A28-46C2-A581-BFEF1361147F} = {8742E1DC-86BA-4835-A096-43E4407DDD53}
+		{1983F98C-02F5-4B0B-9A45-10563E1A3177} = {8742E1DC-86BA-4835-A096-43E4407DDD53}
+		{083AC4DE-8292-4DA2-B6B7-107659BA4E9B} = {8742E1DC-86BA-4835-A096-43E4407DDD53}
+		{E12A6B0E-C50A-43F3-A33C-D919B60CA2E7} = {1335464E-0166-4ABA-96C1-605CF0A6768F}
+		{874F3832-3F2E-4ACC-A7AF-636F72567243} = {1335464E-0166-4ABA-96C1-605CF0A6768F}
+	EndGlobalSection
+EndGlobal

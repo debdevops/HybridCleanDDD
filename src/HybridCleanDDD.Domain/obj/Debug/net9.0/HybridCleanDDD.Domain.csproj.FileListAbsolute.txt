@@ -1,0 +1,11 @@
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Domain/bin/Debug/net9.0/HybridCleanDDD.Domain.deps.json
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Domain/bin/Debug/net9.0/HybridCleanDDD.Domain.dll
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Domain/bin/Debug/net9.0/HybridCleanDDD.Domain.pdb
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Domain/obj/Debug/net9.0/HybridCleanDDD.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Domain/obj/Debug/net9.0/HybridCleanDDD.Domain.AssemblyInfoInputs.cache
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Domain/obj/Debug/net9.0/HybridCleanDDD.Domain.AssemblyInfo.cs
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Domain/obj/Debug/net9.0/HybridCleanDDD.Domain.csproj.CoreCompileInputs.cache
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Domain/obj/Debug/net9.0/HybridCleanDDD.Domain.dll
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Domain/obj/Debug/net9.0/refint/HybridCleanDDD.Domain.dll
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Domain/obj/Debug/net9.0/HybridCleanDDD.Domain.pdb
+/Users/debasisghosh/Projects/HybridCleanDDD/src/HybridCleanDDD.Domain/obj/Debug/net9.0/ref/HybridCleanDDD.Domain.dll
