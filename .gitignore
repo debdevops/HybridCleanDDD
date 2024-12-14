@@ -24,9 +24,10 @@ node_modules/
 
 # Ignore Visual Studio for Mac configuration files
 .vscode/
-# Ignore bin and obj folders
+# Ignore build directories
 bin/
 obj/
 
-# Ignore all files in the Debug folder
+# Ignore any other files in Debug/ and Release/ directories
 Debug/
+Release/
