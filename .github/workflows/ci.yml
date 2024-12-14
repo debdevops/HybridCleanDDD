@@ -3,35 +3,11 @@ name: CI Pipeline
 on:
   pull_request:
     branches:
-      - master | dglocal # Triggers when there's a PR to master branch
+      - master | dglocal # Triggered when a PR is created to the master branch
+  workflow_dispatch:  # This allows manual triggering from GitHub UI
 
 jobs:
   build:
-    runs-on: ubuntu-latest  # You can use windows-latest or macos-latest if preferred
-
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
-
-    - name: Set up .NET
-      uses: actions/setup-dotnet@v1
-      with:
-        dotnet-version: '8.0'  # Specify your .NET version here
-
-    - name: Restore dependencies
-      run: dotnet restore  # Restores dependencies for your solution
-
-    - name: Build the solution
-      run: dotnet build --configuration Release  # Builds the solution
-
-    - name: Run tests
-      run: dotnet test --configuration Release  # Runs the tests
-
-    - name: Publish output
-      run: dotnet publish --configuration Release --output ./publish  # Publishes the app for deployment (optional)
-
-  # Additional job for deployment (optional)
-  deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -43,10 +19,14 @@ jobs:
       with:
         dotnet-version: '8.0'
 
-    - name: Deploy to Azure (or your deployment platform)
-      run: |
-        # Add your deployment script here, for example:
-        # az webapp deploy --name <your-app-name> --resource-group <your-resource-group> --src-path ./publish
-        echo "Deploying to Azure"  # Replace with your actual deployment command
+    - name: Restore dependencies
+      run: dotnet restore
 
-    if: success()  # Only runs if previous steps (build and test) succeed
+    - name: Build the solution
+      run: dotnet build --configuration Release
+
+    - name: Run tests
+      run: dotnet test --configuration Release
+
+    - name: Publish output
+      run: dotnet publish --configuration Release --output ./publish
