@@ -1,0 +1,19 @@
+# Ignore all .dll files in the repository
+*.dll
+# Ignore bin and obj directories
+**/bin/
+**/obj/
+
+# Ignore build outputs
+*.exe
+*.out
+# Ignore VSCode settings
+.vscode/
+
+# Ignore JetBrains Rider settings
+.idea/
+# Ignore user-specific configurations (e.g., Visual Studio, VSCode, etc.)
+*.user
+*.userosscache
+*.suo
+*.userprefs
