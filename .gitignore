@@ -1,19 +1,26 @@
-# Ignore all .dll files in the repository
+# Ignore all .dll files
 *.dll
-# Ignore bin and obj directories
+
+# Ignore bin and obj directories in all subdirectories
 **/bin/
 **/obj/
 
 # Ignore build outputs
 *.exe
 *.out
-# Ignore VSCode settings
-.vscode/
 
-# Ignore JetBrains Rider settings
+# Ignore IDE and editor-specific files
+.vscode/
 .idea/
-# Ignore user-specific configurations (e.g., Visual Studio, VSCode, etc.)
+
+# Ignore user-specific files
 *.user
 *.userosscache
 *.suo
 *.userprefs
+
+# Ignore the npm and node_modules folders if you have frontend code
+node_modules/
+
+# Ignore Visual Studio for Mac configuration files
+.vscode/
