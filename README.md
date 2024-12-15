@@ -1,33 +1,45 @@
-# HybridCleanDDD - ASP.NET Core 8 Clean Architecture with DDD
+# HybridCleanDDD
 
-This project demonstrates an example implementation of Clean Architecture and Domain-Driven Design (DDD) principles using ASP.NET Core 8. It follows best practices for building scalable and maintainable applications, focusing on separation of concerns, testability, and domain-driven design patterns.
+## Overview
 
+HybridCleanDDD is a sample project demonstrating a hybrid approach combining **Domain-Driven Design (DDD)** and **Clean Architecture** principles using **ASP.NET Core 8**. This project aims to serve as a reference for designing modular, testable, and scalable applications.
 
-## Introduction
+---
 
-This is a sample project to demonstrate how to use Clean Architecture and DDD in an ASP.NET Core 8 application. It includes:
-- **Domain Layer**: Contains the business logic and domain entities.
-- **Application Layer**: Handles use cases, application logic, and services.
-- **Infrastructure Layer**: Implements persistence and external service integrations.
-- **Web API Layer**: Exposes the API endpoints.
+## Architecture
 
-The goal is to maintain separation of concerns while following best practices in software architecture.
+The architecture follows the Clean Architecture principles with a focus on Domain-Driven Design (DDD). The solution is divided into layers:
 
-## Features
+1. **Domain Layer**:
+   - Contains the core business logic, domain models, and interfaces.
+   - Independent of external frameworks or technologies.
+   - Key components:
+     - **Entities**: Core domain objects with behavior.
+     - **Value Objects**: Immutable objects representing domain concepts.
+     - **Aggregates**: Group of related entities treated as a single unit.
+     - **Repositories (Interfaces)**: Contracts for data persistence.
 
-- Domain-Driven Design (DDD) principles
-- Clean Architecture pattern
-- ASP.NET Core 8 API
-- Dependency Injection
-- Entity Framework Core for database interactions
-- Async repository pattern
-- Unit testing support
+2. **Application Layer**:
+   - Responsible for application logic and use cases.
+   - Key components:
+     - **Services**: Business logic for use cases.
+     - **DTOs**: Data contracts between layers.
+     - **Interfaces**: Contracts for external services.
 
-## Project Structure
+3. **Infrastructure Layer**:
+   - Implements domain and application interfaces.
+   - Handles database operations, external APIs, and third-party integrations.
+   - Key components:
+     - **Persistence**: Entity Framework Core (EF Core) implementation.
+     - **Configurations**: Database and external dependency setup.
 
-The project is organized into multiple layers to follow the Clean Architecture principles:
+4. **WebAPI Layer**:
+   - Exposes the application to the outside world through RESTful APIs.
+   - Key components:
+     - **Controllers**: Handle HTTP requests and responses.
+     - **Dependency Injection**: Configure services and repositories.
 
-## Run
-dotnet build
+5. **Test Layers**:
+   - Unit and integration tests for all layers.
 
-dotnet run --project src/HybridCleanDDD.WebAPI
+---
