@@ -43,3 +43,16 @@ The architecture follows the Clean Architecture principles with a focus on Domai
    - Unit and integration tests for all layers.
 
 ---
+
+## Features
+
+- **Domain-Driven Design (DDD)** principles:
+  - Rich domain model with aggregates and value objects.
+- **Clean Architecture** structure:
+  - Clear separation of concerns and dependencies between layers.
+- **Testable design**:
+  - Unit tests for domain and application logic.
+- **Modern ASP.NET Core 8** features:
+  - Minimal APIs and simplified configurations.
+
+---
