@@ -31,3 +31,11 @@ obj/
 # Ignore any other files in Debug/ and Release/ directories
 Debug/
 Release/
+/.vs/HybridCleanDDD/DesignTimeBuild/.dtbcache.v2
+/.vs/HybridCleanDDD/FileContentIndex
+/.vs/HybridCleanDDD/FileContentIndex/1a81d6ea-780a-46e3-a357-cefa37f408c4.vsidx
+/.vs/HybridCleanDDD/v17
+/.vs/ProjectEvaluation
+/.vs/ProjectEvaluation/hybridcleanddd.metadata.v9.bin
+/.vs/slnx.sqlite
+/.vs/VSWorkspaceState.json
